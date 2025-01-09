@@ -2,7 +2,7 @@ package com.siukatech.exam.trainer.exam.web.controller;
 
 import com.siukatech.exam.trainer.web.api.ExamApi;
 import com.siukatech.exam.trainer.web.model.ExamModel;
-import com.siukatech.poc.react.backend.parent.web.annotation.base.RestApiController;
+import com.siukatech.poc.react.backend.core.web.annotation.base.RestApiController;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

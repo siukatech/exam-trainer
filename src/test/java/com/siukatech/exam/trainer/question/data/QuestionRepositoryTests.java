@@ -7,7 +7,7 @@ import com.siukatech.exam.trainer.question.data.entity.OptionEntity;
 import com.siukatech.exam.trainer.question.data.entity.QuestionEntity;
 import com.siukatech.exam.trainer.question.data.repository.OptionRepository;
 import com.siukatech.exam.trainer.question.data.repository.QuestionRepository;
-import com.siukatech.poc.react.backend.parent.AbstractJpaTests;
+import com.siukatech.poc.react.backend.core.AbstractJpaTests;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

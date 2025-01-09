@@ -1,6 +1,6 @@
 package com.siukatech.exam.trainer.question.data.entity;
 
-import com.siukatech.poc.react.backend.parent.data.entity.AbstractEntity;
+import com.siukatech.poc.react.backend.core.data.entity.AbstractEntity;
 import jakarta.persistence.*;
 import lombok.Data;
 

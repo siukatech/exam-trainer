@@ -31,11 +31,11 @@ bootJar {
 	exclude('application*.properties', 'application*.yml')
 }
 
-// define react-backend-parent version
-def parentProjectVersion = '0.0.1-SNAPSHOT'
+// define react-backend-core version
+def coreProjectVersion = '0.0.1-SNAPSHOT'
 
 dependencies {
-	implementation 'com.siukatech.poc:react-backend-parent:0.0.1-SNAPSHOT'
+	implementation 'com.siukatech.poc:react-backend-core:0.0.1-SNAPSHOT'
 
 	// https://mvnrepository.com/artifact/com.fasterxml.uuid/java-uuid-generator
 	implementation 'com.fasterxml.uuid:java-uuid-generator:5.0.0'
@@ -43,9 +43,9 @@ dependencies {
 	// Class com.sun.tools.javac.tree.JCTree$JCImport does not have member field 'com.sun.tools.javac.tree.JCTree qualid'
 	annotationProcessor 'org.projectlombok:lombok:1.18.30'
 
-	runtimeOnly 'org.postgresql:postgresql:42.6.0'
+	runtimeOnly 'org.postgresql:postgresql:42.7.2'
 
-	testImplementation testFixtures("com.siukatech.poc:react-backend-parent:$parentProjectVersion")
+	testImplementation testFixtures("com.siukatech.poc:react-backend-core:$coreProjectVersion")
 }
 
 // after upgrade to springboot >= 3.2.1
